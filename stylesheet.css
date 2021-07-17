@@ -5,7 +5,7 @@
   } 
   .header {
     display: flex;
-    background-color: greenyellow;
+    background-color: gray;
     height: 80px;
   }
   .header-logo {
@@ -34,7 +34,7 @@
   h3{
     font-size: 30px;
     border: 2px solid;
-    border-color: greenyellow;
+    border-color: grey;
     background-color: lightcyan;
   }
   a{
@@ -56,7 +56,7 @@
   .main {
     width: 30%;
     border: 10px solid;
-    border-color: greenyellow;
+    border-color: grey;
     margin: 10px;
   }
   .comment {
@@ -84,7 +84,7 @@
   }
   .footer {
     display: flex;
-    background-color: greenyellow;
+    background-color: gray;
     height: 80px;
   }
   .footer-logo{
@@ -103,7 +103,7 @@
   .register{
     height: 500px;
     padding: 5px;
-    border: 5px greenyellow solid;
+    border: 5px gray solid;
     margin: 30px;
   }
   .Form {
@@ -113,7 +113,7 @@
     max-width: 800px;
   }
   .Form-Item {
-    border-top: 2px solid greenyellow;
+    border-top: 2px solid gray;
     padding-top: 24px;
     padding-bottom: 24px;
     width: 100%;
@@ -137,12 +137,12 @@
     width: 48px;
     display: inline-block;
     text-align: center;
-    background: greenyellow;
+    background: gray;
     color: #fff;
     font-size: 14px;
   }
   .Form-Item-Input {
-    border: 2px solid greenyellow;
+    border: 2px solid gray;
     border-radius: 6px;
     margin-left: 40px;
     padding-left: 1em;
@@ -155,7 +155,7 @@
     font-size: 18px;
   }
   .Form-Item-Textarea {
-    border: 2px solid greenyellow;
+    border: 2px solid gray;
     border-radius: 6px;
     margin-left: 40px;
     padding-left: 1em;
@@ -187,7 +187,7 @@
 @media screen and (min-width: 415px) and (max-width:959px){
   .header {
     display: flex;
-    background-color: greenyellow;
+    background-color: gray;
     height: 50px;
   }
   .header-logo {
@@ -216,7 +216,7 @@
   h3{
     font-size: 20px;
     border: 2px solid;
-    border-color: greenyellow;
+    border-color: gray;
     background-color: lightcyan;
   }
   a{
@@ -240,7 +240,7 @@
       justify-content: space-between;
       width: 80%;
       border: 5px solid;
-      border-color: greenyellow;
+      border-color: gray;
       margin: 1em;
   }
   .comment {
@@ -265,7 +265,7 @@
   }
   .footer {
     display: flex;
-    background-color: greenyellow;
+    background-color: gray;
     height: 50px;
   }
   .footer-logo{
@@ -283,7 +283,7 @@
   .register{
     height: 500px;
     padding: 5px;
-    border: 5px greenyellow solid;
+    border: 5px gray solid;
     margin: 30px;
   }
   .Form {
@@ -293,7 +293,7 @@
     max-width: 959px;
   }
   .Form-Item {
-    border-top: 2px solid greenyellow;
+    border-top: 2px solid gray;
     padding-top: 24px;
     padding-bottom: 24px;
     width: 100%;
@@ -317,12 +317,12 @@
     width: 50px;
     display: inline-block;
     text-align: center;
-    background: greenyellow;
+    background: gray;
     color: #fff;
     font-size: 10px;
   }
   .Form-Item-Input {
-    border: 2px solid greenyellow;
+    border: 2px solid gray;
     border-radius: 6px;
     margin-left: 40px;
     padding-left: 1em;
@@ -335,7 +335,7 @@
     font-size: 15px;
   }
   .Form-Item-Textarea {
-    border: 2px solid greenyellow;
+    border: 2px solid gray;
     border-radius: 6px;
     margin-left: 40px;
     padding-left: 1em;
@@ -370,7 +370,7 @@
   } 
   .header {
     display: flex;
-    background-color: greenyellow;
+    background-color: gray;
     height: 50px;
   }
   .header-logo {
@@ -399,7 +399,7 @@
   h3{
     font-size: 20px;
     border: 2px solid;
-    border-color: greenyellow;
+    border-color: gray;
     background-color: lightcyan;
   }
   a{
@@ -423,7 +423,7 @@
       justify-content: space-between;
       width: 80%;
       border: 5px solid;
-      border-color: greenyellow;
+      border-color: gray;
       margin: 1em;
   }
   .comment {
@@ -448,7 +448,7 @@
   }
   .footer {
     display: flex;
-    background-color: greenyellow;
+    background-color: gray;
     height: 50px;
   }
   .footer-logo{
@@ -465,7 +465,7 @@
   .register{
     height: 500px;
     padding: 5px;
-    border: 5px greenyellow solid;
+    border: 5px gray solid;
     margin: 30px;
   }
   .Form {
@@ -475,7 +475,7 @@
     max-width: 959px;
   }
   .Form-Item {
-    border-top: 2px solid greenyellow;
+    border-top: 2px solid gray;
     padding-top: 24px;
     padding-bottom: 24px;
     width: 100%;
@@ -499,12 +499,12 @@
     width: 50px;
     display: inline-block;
     text-align: center;
-    background: greenyellow;
+    background: gray;
     color: #fff;
     font-size: 10px;
   }
   .Form-Item-Input {
-    border: 2px solid greenyellow;
+    border: 2px solid gray;
     border-radius: 6px;
     margin-left: 40px;
     padding-left: 1em;
@@ -517,7 +517,7 @@
     font-size: 15px;
   }
   .Form-Item-Textarea {
-    border: 2px solid greenyellow;
+    border: 2px solid gray;
     border-radius: 6px;
     margin-left: 40px;
     padding-left: 1em;
