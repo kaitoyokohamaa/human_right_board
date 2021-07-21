@@ -2,34 +2,45 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <title>人権掲示板</title>
   </head>
   <body>
-    <div class="header">
-      <div class="header-logo"><a href=" index.html">子どもの人権</a></div>
-      <div class="header-list">
-        <ul>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">人権</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="./index.html">質問一覧</a></li>
           <li><a href="./register.html">質問作成</a></li>
         </ul>
       </div>
-    </div>
+    </nav>
     <div class="register">
       <div class="Form">
         <div class="Form-Item">
           <p class="Form-Item-Label">
             <span class="Form-Item-Label-Required">必須</span>ニックネーム
           </p>
-          <input type="text" class="Form-Item-Input" placeholder="例）こどもくん">
+          <input
+            type="text"
+            class="Form-Item-Input"
+            placeholder="例）こどもくん"
+          />
         </div>
         <div class="Form-Item">
-          <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>質問内容（しつもんないよう）</p>
+          <p class="Form-Item-Label isMsg">
+            <span class="Form-Item-Label-Required">必須</span
+            >質問内容（しつもんないよう）
+          </p>
           <textarea class="Form-Item-Textarea"></textarea>
         </div>
-        <input type="submit" class="Form-Btn" value="送信する">
+        <input type="submit" class="Form-Btn" value="送信する" />
       </div>
     </div>
     <div class="footer">

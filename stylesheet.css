@@ -1,8 +1,17 @@
 /*PC*/
+.btn {
+  background-color: #ee6e73 !important;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
 @media screen and (min-width: 960px) {
-  .h2:after{
+  .h2:after {
     content: "960px~";
-  } 
+  }
   .header {
     display: flex;
     background-color: greenyellow;
@@ -21,7 +30,7 @@
     color: black;
     margin: 5px 5px 5px 100px;
   }
-  li {
+  /* li {
     list-style: none;
     padding: 5px;
     border: 2px solid;
@@ -30,18 +39,18 @@
   }
   ul{
     display: flex;
-  }
-  h3{
+  } */
+  h3 {
     font-size: 30px;
     border: 2px solid;
     border-color: greenyellow;
     background-color: lightcyan;
   }
-  a{
-  display: block;
-  color: black;
-  text-decoration: none;
-  padding: 5px;
+  a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
   }
   .wrapper {
     display: flex;
@@ -87,20 +96,20 @@
     background-color: greenyellow;
     height: 80px;
   }
-  .footer-logo{
+  .footer-logo {
     font-size: 30px;
     color: black;
     padding: 5px;
     border: white 2px solid;
     margin: 5px;
   }
-  .footer-list{
+  .footer-list {
     font-size: 20px;
     color: black;
     margin: 0px 0px 0px 100px;
   }
   /*質問画面css*/
-  .register{
+  .register {
     height: 500px;
     padding: 5px;
     border: 5px greenyellow solid;
@@ -183,8 +192,8 @@
     font-size: 20px;
   }
 }
- /*tablet*/
-@media screen and (min-width: 415px) and (max-width:959px){
+/*tablet*/
+@media screen and (min-width: 415px) and (max-width: 959px) {
   .header {
     display: flex;
     background-color: greenyellow;
@@ -208,79 +217,79 @@
     padding: 5px;
     border: 2px solid;
     border-color: white;
-    margin: 8px 10px;   
+    margin: 8px 10px;
   }
-  ul{
+  ul {
     display: flex;
   }
-  h3{
+  h3 {
     font-size: 20px;
     border: 2px solid;
     border-color: greenyellow;
     background-color: lightcyan;
   }
-  a{
-  display: block;
-  color: black;
-  text-decoration: none;
-  padding: 3px;
+  a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 3px;
   }
-  .h2:after{
-      content: "415px~959px";
+  .h2:after {
+    content: "415px~959px";
   }
   .wrapper {
-      width: 100%;
-      margin: 0px 40px auto;
+    width: 100%;
+    margin: 0px 40px auto;
   }
   .total-number {
-      display: flex;
-      justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
   }
   .main {
-      justify-content: space-between;
-      width: 80%;
-      border: 5px solid;
-      border-color: greenyellow;
-      margin: 1em;
+    justify-content: space-between;
+    width: 80%;
+    border: 5px solid;
+    border-color: greenyellow;
+    margin: 1em;
   }
   .comment {
-      color: black;
-      float: right;
-      margin: 20px;
-      padding-right: 200px;
-      width: 200px;
-      height: 70px;
+    color: black;
+    float: right;
+    margin: 20px;
+    padding-right: 200px;
+    width: 200px;
+    height: 70px;
   }
   .vote-button {
-      display: flex;
-      justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
   }
   button {
-      width: 170px;
-      height: 170px;
+    width: 170px;
+    height: 170px;
   }
   .vote {
-      display: flex;
-      justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
   }
   .footer {
     display: flex;
     background-color: greenyellow;
     height: 50px;
   }
-  .footer-logo{
+  .footer-logo {
     font-size: 15px;
     color: black;
     padding: 5px;
     border: white 2px solid;
     margin: 5px;
   }
-  .footer-list{
+  .footer-list {
     font-size: 10px;
     color: black;
   }
   /*質問作成*/
-  .register{
+  .register {
     height: 500px;
     padding: 5px;
     border: 5px greenyellow solid;
@@ -363,11 +372,11 @@
     font-size: 15px;
   }
 }
- /*other*/
-@media screen and (max-width: 414px){
-  .h2:after{
+/*other*/
+@media screen and (max-width: 414px) {
+  .h2:after {
     content: "~414px";
-  } 
+  }
   .header {
     display: flex;
     background-color: greenyellow;
@@ -391,78 +400,78 @@
     padding: 5px;
     border: 2px solid;
     border-color: white;
-    margin: 8px 10px;   
+    margin: 8px 10px;
   }
-  ul{
+  ul {
     display: flex;
   }
-  h3{
+  h3 {
     font-size: 20px;
     border: 2px solid;
     border-color: greenyellow;
     background-color: lightcyan;
   }
-  a{
-  display: block;
-  color: black;
-  text-decoration: none;
-  padding: 3px;
+  a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 3px;
   }
-  .h2:after{
-      content: "415px~959px";
+  .h2:after {
+    content: "415px~959px";
   }
   .wrapper {
-      width: 100%;
-      margin: 0px 40px auto;
+    width: 100%;
+    margin: 0px 40px auto;
   }
   .total-number {
-      display: flex;
-      justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
   }
   .main {
-      justify-content: space-between;
-      width: 80%;
-      border: 5px solid;
-      border-color: greenyellow;
-      margin: 1em;
+    justify-content: space-between;
+    width: 80%;
+    border: 5px solid;
+    border-color: greenyellow;
+    margin: 1em;
   }
   .comment {
-      color: black;
-      float: right;
-      margin: 20px;
-      padding-right: 200px;
-      width: 200px;
-      height: 70px;
+    color: black;
+    float: right;
+    margin: 20px;
+    padding-right: 200px;
+    width: 200px;
+    height: 70px;
   }
   .vote-button {
-      display: flex;
-      justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
   }
   button {
-      width: 170px;
-      height: 170px;
+    width: 170px;
+    height: 170px;
   }
   .vote {
-      display: flex;
-      justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
   }
   .footer {
     display: flex;
     background-color: greenyellow;
     height: 50px;
   }
-  .footer-logo{
+  .footer-logo {
     font-size: 15px;
     color: black;
     padding: 5px;
     border: white 2px solid;
     margin: 5px;
   }
-  .footer-list{
+  .footer-list {
     font-size: 10px;
     color: black;
   }
-  .register{
+  .register {
     height: 500px;
     padding: 5px;
     border: 5px greenyellow solid;

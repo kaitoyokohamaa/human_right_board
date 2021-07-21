@@ -5,10 +5,28 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <title>人権掲示板</title>
   </head>
   <body>
-    <div class="header">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">人権</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="./index.html">質問一覧</a></li>
+          <li><a href="./register.html">質問作成</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <div class="header">
       <div class="header-logo"><a href=" index.html">人権</a></div>
       <div class="header-list">
         <ul>
@@ -16,32 +34,41 @@
           <li><a href="./register.html">質問作成</a></li>
         </ul>
       </div>
-    </div>
-    <div class="wrapper">
+    </div> -->
+    <div>
       <!-- main -->
-      <div class="main">
-        <div class="total-number">
-          <h2>10投票</h2>
-          <h2>10コメント</h2>
-        </div>
-        <div class="question">
-          <h2><span>Q,</span>勉強を親から急かされるのは人権の侵害ですか？</h2>
-        </div>
-        <div>
-          <div class="vote-button">
-            <button type="submit">
-              <h3>はい</h3>
-            </button>
-            <button type="submit">
-              <h3>いいえ</h3>
-            </button>
-          </div>
-          <div class="vote">
-            <h2 class="first">票数1</h2>
-            <h2 class="second">票数2</h2>
+      <div class="row">
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-content">
+              <div class="total-number">
+                <h5>10投票</h5>
+                <h5>10コメント</h5>
+              </div>
+              <p>勉強を親から急かされるのは人権の侵害ですか？</p>
+            </div>
+            <div class="m-auto flex">
+              <div id="goodbtn">
+                <a class="waves-effect waves-light btn-large btn">
+                  <i class="material-icons">sentiment_very_satisfied</i>
+                  <span id="good">1</span></a
+                >
+              </div>
+              <div id="badbtn">
+                <a class="waves-effect waves-light btn-large btn">
+                  <i class="material-icons">sentiment_very_dissatisfied</i>
+                  <span id="bad">1</span></a
+                >
+              </div>
+            </div>
+
+            <div class="card-action">
+              <a href="#">詳細</a>
+            </div>
           </div>
         </div>
       </div>
+
       <!--  main-->
       <!-- main -->
       <div class="main">
@@ -50,7 +77,7 @@
           <h2>10コメント</h2>
         </div>
         <div class="question">
-          <h2><span>Q,</span>勉強を親から急かされるのは人権の侵害ですか？</h2>
+          <h2><勉強を親から急かされるのは人権の侵害ですか？</h2>
         </div>
         <div>
           <div class="vote-button">
