@@ -1,0 +1,558 @@
+/*PC*/
+.btn {
+  background-color: #ee6e73 !important;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+@media screen and (min-width: 960px) {
+  .h2:after {
+    content: "960px~";
+  }
+  .header {
+    display: flex;
+    background-color: gray;
+    height: 80px;
+  }
+  .header-logo {
+    font-size: 30px;
+    color: black;
+    padding: 5px;
+    border: 2px solid;
+    border-color: white;
+    margin: 5px;
+  }
+  .header-list {
+    font-size: 20px;
+    color: black;
+    margin: 5px 5px 5px 100px;
+  }
+  /* li {
+    list-style: none;
+    padding: 5px;
+    border: 2px solid;
+    border-color: white;
+    margin: 10px;    
+  }
+  ul{
+    display: flex;
+  } */
+  h3 {
+    font-size: 30px;
+    border: 2px solid;
+    border-color: grey;
+    background-color: lightcyan;
+  }
+  a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .total-number {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main {
+    width: 30%;
+    border: 10px solid;
+    border-color: grey;
+    margin: 10px;
+  }
+  .comment {
+    color: black;
+    float: right;
+    margin: 20px;
+    padding-right: 200px;
+    width: 200px;
+    height: 70px;
+  }
+  .vote-button {
+    display: flex;
+    justify-content: space-around;
+  }
+  .question {
+    margin: 5px;
+  }
+  button {
+    width: 170px;
+    height: 170px;
+  }
+  .vote {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer {
+    display: flex;
+    background-color: gray;
+    height: 80px;
+  }
+  .footer-logo {
+    font-size: 30px;
+    color: black;
+    padding: 5px;
+    border: white 2px solid;
+    margin: 5px;
+  }
+  .footer-list {
+    font-size: 20px;
+    color: black;
+    margin: 0px 0px 0px 100px;
+  }
+  /*質問画面css*/
+  .register {
+    height: 500px;
+    padding: 5px;
+    border: 5px #ee6e73;
+    margin: 30px;
+  }
+  .Form {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+  }
+  .Form-Item {
+    border-top: 2px solid #ee6e73;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    align-items: center;
+  }
+  .Form-Item-Label {
+    width: 100%;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .Form-Item-Label.isMsg {
+    margin-top: 8px;
+    margin-bottom: auto;
+  }
+  .Form-Item-Label-Required {
+    border-radius: 6px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 48px;
+    display: inline-block;
+    text-align: center;
+    background: #ee6e73;
+    color: #fff;
+    font-size: 14px;
+  }
+  .Form-Item-Input {
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 48px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 18px;
+  }
+  .Form-Item-Textarea {
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 100px;
+    flex: 1;
+    width: 100%;
+    max-width: 500px;
+    background: #eaedf2;
+    font-size: 18px;
+  }
+  .Form-Btn {
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 280px;
+    display: block;
+    letter-spacing: 0.05em;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+/*tablet*/
+@media screen and (min-width: 415px) and (max-width: 959px) {
+  .header {
+    display: flex;
+    background-color: gray;
+    height: 50px;
+  }
+  .header-logo {
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+    border: 2px solid;
+    border-color: white;
+    margin: 5px;
+  }
+  .header-list {
+    font-size: 10px;
+    color: black;
+    margin: 0px 0px 0px 50px;
+  }
+  li {
+    list-style: none;
+    padding: 5px;
+    border: 2px solid;
+    border-color: white;
+    margin: 8px 10px;
+  }
+  ul {
+    display: flex;
+  }
+  h3 {
+    font-size: 20px;
+    border: 2px solid;
+    border-color: gray;
+    background-color: lightcyan;
+  }
+  a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+  }
+  .h2:after {
+    content: "415px~959px";
+  }
+  .wrapper {
+    width: 100%;
+    margin: 0px 40px auto;
+  }
+  .total-number {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main {
+    justify-content: space-between;
+    width: 80%;
+    border: 5px solid;
+    border-color: greenyellow;
+    margin: 1em;
+  }
+  .comment {
+    color: black;
+    float: right;
+    margin: 20px;
+    padding-right: 200px;
+    width: 200px;
+    height: 70px;
+  }
+  .vote-button {
+    display: flex;
+    justify-content: space-around;
+  }
+  button {
+    width: 170px;
+    height: 170px;
+  }
+  .vote {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer {
+    display: flex;
+    background-color: gray;
+    height: 50px;
+  }
+  .footer-logo {
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+    border: white 2px solid;
+    margin: 5px;
+  }
+  .footer-list {
+    font-size: 10px;
+    color: black;
+  }
+  /*質問作成*/
+  .register {
+    height: 500px;
+    padding: 5px;
+    border: 5px gray solid;
+    margin: 30px;
+  }
+  .Form {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 959px;
+  }
+  .Form-Item {
+    border-top: 2px solid gray;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    align-items: center;
+  }
+  .Form-Item-Label {
+    width: 100%;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .Form-Item-Label.isMsg {
+    margin-top: 8px;
+    margin-bottom: auto;
+  }
+  .Form-Item-Label-Required {
+    border-radius: 6px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    background: gray;
+    color: #fff;
+    font-size: 10px;
+  }
+  .Form-Item-Input {
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 48px;
+    flex: 1;
+    width: 80%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 15px;
+  }
+  .Form-Item-Textarea {
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 150px;
+    flex: 1;
+    width: 80%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 13px;
+  }
+  .Form-Btn {
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    display: block;
+    letter-spacing: 0.05em;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+  }
+}
+/*other*/
+@media screen and (max-width: 414px) {
+  .h2:after {
+    content: "~414px";
+  }
+  .header {
+    display: flex;
+    background-color: gray;
+    height: 50px;
+  }
+  .header-logo {
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+    border: 2px solid;
+    border-color: white;
+    margin: 5px;
+  }
+  .header-list {
+    font-size: 10px;
+    color: black;
+    margin: 0px 0px 0px 50px;
+  }
+  li {
+    list-style: none;
+    padding: 5px;
+    border: 2px solid;
+    border-color: white;
+    margin: 8px 10px;
+  }
+  ul {
+    display: flex;
+  }
+  h3 {
+    font-size: 20px;
+    border: 2px solid;
+    border-color: gray;
+    background-color: lightcyan;
+  }
+  a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+  }
+  .h2:after {
+    content: "415px~959px";
+  }
+  .wrapper {
+    width: 100%;
+    margin: 0px 40px auto;
+  }
+  .total-number {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main {
+
+      justify-content: space-between;
+      width: 80%;
+      border: 5px solid;
+      border-color: gray;
+      margin: 1em;
+
+  }
+  .comment {
+    color: black;
+    float: right;
+    margin: 20px;
+    padding-right: 200px;
+    width: 200px;
+    height: 70px;
+  }
+  .vote-button {
+    display: flex;
+    justify-content: space-around;
+  }
+  button {
+    width: 170px;
+    height: 170px;
+  }
+  .vote {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer {
+    display: flex;
+    background-color: gray;
+    height: 50px;
+  }
+  .footer-logo {
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+    border: white 2px solid;
+    margin: 5px;
+  }
+  .footer-list {
+    font-size: 10px;
+    color: black;
+  }
+  .register {
+    height: 500px;
+    padding: 5px;
+    border: 5px gray solid;
+    margin: 30px;
+  }
+  .Form {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 959px;
+  }
+  .Form-Item {
+    border-top: 2px solid gray;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    align-items: center;
+  }
+  .Form-Item-Label {
+    width: 100%;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .Form-Item-Label.isMsg {
+    margin-top: 8px;
+    margin-bottom: auto;
+  }
+  .Form-Item-Label-Required {
+    border-radius: 6px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    background: gray;
+    color: #fff;
+    font-size: 10px;
+  }
+  .Form-Item-Input {
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 48px;
+    flex: 1;
+    width: 80%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 15px;
+  }
+  .Form-Item-Textarea {
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 150px;
+    flex: 1;
+    width: 80%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 13px;
+  }
+  .Form-Btn {
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    display: block;
+    letter-spacing: 0.05em;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+  }
+}
